@@ -1,0 +1,3 @@
+/home/rial/workspaces/auto-test/gitspace/test/build/CMakeFiles/rebuild_cache.dir
+/home/rial/workspaces/auto-test/gitspace/test/build/CMakeFiles/edit_cache.dir
+/home/rial/workspaces/auto-test/gitspace/test/build/CMakeFiles/testunit.dir

@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-4/root/usr/bin/cc  -fPIC   -shared -Wl,-soname,libtest.so -o /home/rial/workspaces/auto-test/gitspace/bin/libtest.so CMakeFiles/test.dir/lib.c.o 

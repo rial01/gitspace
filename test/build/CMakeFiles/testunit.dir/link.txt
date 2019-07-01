@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-4/root/usr/bin/c++      CMakeFiles/testunit.dir/gtestDemo.o  -o /home/rial/workspaces/auto-test/gitspace/bin/testunit  -L../../../googletest-release-1.8.0/googlemock/gtest -Wl,-rpath,../../../googletest-release-1.8.0/googlemock/gtest -rdynamic -lgtest -lpthread 

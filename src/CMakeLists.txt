@@ -1,0 +1,17 @@
+PROJECT(test)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -g -ggdb -Wno-dev")
+
+add_compile_options(-fPIC)
+
+
+#输出路径
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ../../bin)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ../../bin)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../../bin)
+
+file(GLOB TEST_SRC "lib.c")
+ADD_LIBRARY(test SHARED ${TEST_SRC})
+
+
